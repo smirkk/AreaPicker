@@ -1,4 +1,4 @@
-# 1228-AreaPicker
+AreaPicker
 中国城市地区选择器
 
 使用：
