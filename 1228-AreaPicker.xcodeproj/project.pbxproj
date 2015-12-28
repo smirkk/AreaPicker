@@ -13,6 +13,10 @@
 		0DD130611C30D9AF0014AEB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD1305F1C30D9AF0014AEB6 /* Main.storyboard */; };
 		0DD130631C30D9AF0014AEB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DD130621C30D9AF0014AEB6 /* Assets.xcassets */; };
 		0DD130661C30D9AF0014AEB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD130641C30D9AF0014AEB6 /* LaunchScreen.storyboard */; };
+		0DD130711C30DA550014AEB6 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DD130701C30DA550014AEB6 /* area.plist */; };
+		0DD130741C30DEDB0014AEB6 /* KJAreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD130731C30DEDB0014AEB6 /* KJAreaPickerView.m */; };
+		0DD130761C30E0AF0014AEB6 /* KJAreaPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DD130751C30E0AF0014AEB6 /* KJAreaPickerView.xib */; };
+		0DD1307B1C30F6F70014AEB6 /* KJLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1307A1C30F6F70014AEB6 /* KJLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,12 @@
 		0DD130621C30D9AF0014AEB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DD130651C30D9AF0014AEB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DD130671C30D9AF0014AEB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DD130701C30DA550014AEB6 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		0DD130721C30DEDB0014AEB6 /* KJAreaPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJAreaPickerView.h; sourceTree = "<group>"; };
+		0DD130731C30DEDB0014AEB6 /* KJAreaPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJAreaPickerView.m; sourceTree = "<group>"; };
+		0DD130751C30E0AF0014AEB6 /* KJAreaPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJAreaPickerView.xib; sourceTree = "<group>"; };
+		0DD130791C30F6F70014AEB6 /* KJLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJLocation.h; sourceTree = "<group>"; };
+		0DD1307A1C30F6F70014AEB6 /* KJLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJLocation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +68,10 @@
 		0DD130551C30D9AF0014AEB6 /* 1228-AreaPicker */ = {
 			isa = PBXGroup;
 			children = (
-				0DD130591C30D9AF0014AEB6 /* AppDelegate.h */,
-				0DD1305A1C30D9AF0014AEB6 /* AppDelegate.m */,
-				0DD1305C1C30D9AF0014AEB6 /* ViewController.h */,
-				0DD1305D1C30D9AF0014AEB6 /* ViewController.m */,
+				0DD1306D1C30D9EC0014AEB6 /* AreaPicker */,
+				0DD1306E1C30D9F50014AEB6 /* Others */,
+				0DD1306F1C30D9FD0014AEB6 /* Controllers */,
 				0DD1305F1C30D9AF0014AEB6 /* Main.storyboard */,
-				0DD130621C30D9AF0014AEB6 /* Assets.xcassets */,
-				0DD130641C30D9AF0014AEB6 /* LaunchScreen.storyboard */,
-				0DD130671C30D9AF0014AEB6 /* Info.plist */,
 				0DD130561C30D9AF0014AEB6 /* Supporting Files */,
 			);
 			path = "1228-AreaPicker";
@@ -74,9 +80,59 @@
 		0DD130561C30D9AF0014AEB6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0DD130621C30D9AF0014AEB6 /* Assets.xcassets */,
+				0DD130641C30D9AF0014AEB6 /* LaunchScreen.storyboard */,
+				0DD130671C30D9AF0014AEB6 /* Info.plist */,
 				0DD130571C30D9AF0014AEB6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DD1306D1C30D9EC0014AEB6 /* AreaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0DD130781C30F6D70014AEB6 /* Model */,
+				0DD130771C30F6C00014AEB6 /* Controllers */,
+				0DD130701C30DA550014AEB6 /* area.plist */,
+			);
+			path = AreaPicker;
+			sourceTree = "<group>";
+		};
+		0DD1306E1C30D9F50014AEB6 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				0DD130591C30D9AF0014AEB6 /* AppDelegate.h */,
+				0DD1305A1C30D9AF0014AEB6 /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		0DD1306F1C30D9FD0014AEB6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0DD1305C1C30D9AF0014AEB6 /* ViewController.h */,
+				0DD1305D1C30D9AF0014AEB6 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0DD130771C30F6C00014AEB6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0DD130721C30DEDB0014AEB6 /* KJAreaPickerView.h */,
+				0DD130731C30DEDB0014AEB6 /* KJAreaPickerView.m */,
+				0DD130751C30E0AF0014AEB6 /* KJAreaPickerView.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0DD130781C30F6D70014AEB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0DD130791C30F6F70014AEB6 /* KJLocation.h */,
+				0DD1307A1C30F6F70014AEB6 /* KJLocation.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +192,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD130761C30E0AF0014AEB6 /* KJAreaPickerView.xib in Resources */,
 				0DD130661C30D9AF0014AEB6 /* LaunchScreen.storyboard in Resources */,
+				0DD130711C30DA550014AEB6 /* area.plist in Resources */,
 				0DD130631C30D9AF0014AEB6 /* Assets.xcassets in Resources */,
 				0DD130611C30D9AF0014AEB6 /* Main.storyboard in Resources */,
 			);
@@ -149,9 +207,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD130741C30DEDB0014AEB6 /* KJAreaPickerView.m in Sources */,
 				0DD1305E1C30D9AF0014AEB6 /* ViewController.m in Sources */,
 				0DD1305B1C30D9AF0014AEB6 /* AppDelegate.m in Sources */,
 				0DD130581C30D9AF0014AEB6 /* main.m in Sources */,
+				0DD1307B1C30F6F70014AEB6 /* KJLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
