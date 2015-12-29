@@ -92,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				0DD130781C30F6D70014AEB6 /* Model */,
-				0DD130771C30F6C00014AEB6 /* Controllers */,
+				0DD130771C30F6C00014AEB6 /* Views */,
 				0DD130701C30DA550014AEB6 /* area.plist */,
 			);
 			path = AreaPicker;
@@ -116,14 +116,14 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
-		0DD130771C30F6C00014AEB6 /* Controllers */ = {
+		0DD130771C30F6C00014AEB6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				0DD130721C30DEDB0014AEB6 /* KJAreaPickerView.h */,
 				0DD130731C30DEDB0014AEB6 /* KJAreaPickerView.m */,
 				0DD130751C30E0AF0014AEB6 /* KJAreaPickerView.xib */,
 			);
-			name = Controllers;
+			name = Views;
 			sourceTree = "<group>";
 		};
 		0DD130781C30F6D70014AEB6 /* Model */ = {
@@ -358,6 +358,7 @@
 				0DD1306C1C30D9AF0014AEB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
