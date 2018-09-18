@@ -1,6 +1,6 @@
 //
 //  KJLocation.h
-//  1228-AreaPicker
+//  AreaPicker
 //
 //  Created by kouhanjin on 15/12/28.
 //  Copyright © 2015年 khj. All rights reserved.

@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0DD130531C30D9AF0014AEB6 /* 1228-AreaPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1228-AreaPicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD130531C30D9AF0014AEB6 /* AreaPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AreaPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD130571C30D9AF0014AEB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DD130591C30D9AF0014AEB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0DD1305A1C30D9AF0014AEB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		0DD1304A1C30D9AF0014AEB6 = {
 			isa = PBXGroup;
 			children = (
-				0DD130551C30D9AF0014AEB6 /* 1228-AreaPicker */,
+				0DD130551C30D9AF0014AEB6 /* AreaPicker */,
 				0DD130541C30D9AF0014AEB6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,12 +60,12 @@
 		0DD130541C30D9AF0014AEB6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0DD130531C30D9AF0014AEB6 /* 1228-AreaPicker.app */,
+				0DD130531C30D9AF0014AEB6 /* AreaPicker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0DD130551C30D9AF0014AEB6 /* 1228-AreaPicker */ = {
+		0DD130551C30D9AF0014AEB6 /* AreaPicker */ = {
 			isa = PBXGroup;
 			children = (
 				0DD1306D1C30D9EC0014AEB6 /* AreaPicker */,
@@ -74,7 +74,7 @@
 				0DD1305F1C30D9AF0014AEB6 /* Main.storyboard */,
 				0DD130561C30D9AF0014AEB6 /* Supporting Files */,
 			);
-			path = "1228-AreaPicker";
+			path = AreaPicker;
 			sourceTree = "<group>";
 		};
 		0DD130561C30D9AF0014AEB6 /* Supporting Files */ = {
@@ -138,9 +138,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0DD130521C30D9AF0014AEB6 /* 1228-AreaPicker */ = {
+		0DD130521C30D9AF0014AEB6 /* AreaPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DD1306A1C30D9AF0014AEB6 /* Build configuration list for PBXNativeTarget "1228-AreaPicker" */;
+			buildConfigurationList = 0DD1306A1C30D9AF0014AEB6 /* Build configuration list for PBXNativeTarget "AreaPicker" */;
 			buildPhases = (
 				0DD1304F1C30D9AF0014AEB6 /* Sources */,
 				0DD130501C30D9AF0014AEB6 /* Frameworks */,
@@ -150,9 +150,9 @@
 			);
 			dependencies = (
 			);
-			name = "1228-AreaPicker";
+			name = AreaPicker;
 			productName = "1228-AreaPicker";
-			productReference = 0DD130531C30D9AF0014AEB6 /* 1228-AreaPicker.app */;
+			productReference = 0DD130531C30D9AF0014AEB6 /* AreaPicker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -169,7 +169,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0DD1304E1C30D9AF0014AEB6 /* Build configuration list for PBXProject "1228-AreaPicker" */;
+			buildConfigurationList = 0DD1304E1C30D9AF0014AEB6 /* Build configuration list for PBXProject "AreaPicker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -182,7 +182,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0DD130521C30D9AF0014AEB6 /* 1228-AreaPicker */,
+				0DD130521C30D9AF0014AEB6 /* AreaPicker */,
 			);
 		};
 /* End PBXProject section */
@@ -321,6 +321,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "1228-AreaPicker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.khj.-228-AreaPicker";
@@ -332,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "1228-AreaPicker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.khj.-228-AreaPicker";
@@ -342,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DD1304E1C30D9AF0014AEB6 /* Build configuration list for PBXProject "1228-AreaPicker" */ = {
+		0DD1304E1C30D9AF0014AEB6 /* Build configuration list for PBXProject "AreaPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DD130681C30D9AF0014AEB6 /* Debug */,
@@ -351,7 +353,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DD1306A1C30D9AF0014AEB6 /* Build configuration list for PBXNativeTarget "1228-AreaPicker" */ = {
+		0DD1306A1C30D9AF0014AEB6 /* Build configuration list for PBXNativeTarget "AreaPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DD1306B1C30D9AF0014AEB6 /* Debug */,
