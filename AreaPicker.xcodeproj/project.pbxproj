@@ -322,7 +322,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "1228-AreaPicker/Info.plist";
+				INFOPLIST_FILE = AreaPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.khj.-228-AreaPicker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -334,7 +335,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "1228-AreaPicker/Info.plist";
+				INFOPLIST_FILE = AreaPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.khj.-228-AreaPicker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
